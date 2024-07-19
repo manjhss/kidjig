@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section id="hero" className="my-16 lg:my-32">
       <div className="flex flex-col gap-6">
-        <h1 className="text-5xl lg:text-[60px] lg:leading-[70px]">
+        <h1 className="text-5xl md:text-[60px] lg:leading-[70px]">
           Empowering Lives Through <br /> Innovative{" "}
           <span className="font-bold underline decoration-8 decoration-[#6881FF]">
             AI
@@ -14,12 +14,12 @@ export default function Hero() {
           Technologies.
         </h1>
 
-        <p className="text-xl lg:text-[22px] text-[#C0C2CC]">
+        <p className="text-xl md:text-[22px] text-[#C0C2CC]">
           Finding new horizons for visionaries to accelerate their innovation
           and progress.
         </p>
 
-        <div className="flex flex-wrap gap-2 lg:gap-4">
+        <div className="flex flex-wrap gap-2 md:gap-4">
           <PrimaryButton>Explore Our Services</PrimaryButton>
           <SecondaryButton>Learn more</SecondaryButton>
         </div>
